@@ -1,0 +1,175 @@
+Introduction
+
+dSkull is a rules system designed for dungeon crawling and skirmish games with emphasis on fast playing and minimum of bookkeeping. It supports 3 main styles of play, Adventure (coop), Nemesis (one versus many) and Skirmish (warband creation). Each of these styles of play can be played as Single Scenario or as a Campaign (series of linked scenarios).
+
+Playing the Game
+- Players will control one or more figures
+- Players will activate one of their ready figures in Initiative order
+-- Every player belongs to a side, for example Nemesis or Heroes.
+-- Activate one figure per side until all sides with ready figures activated one figure, then repeat until all figures ware activated
+- Activated figure will gain and then use actions
+
+Initiative order
+- Order in which players take their turns.
+- Initiative order includes "sides" not players
+-- In Nemesis mode, Nemesis and Heroes are 2 sides.
+-- In Skirmish, every player represents a side.
+- Losing Initiative
+-- In skirmish, moves players side to end of initiative order
+-- In other modes, player can activate last
+-- In case multiple players lost initiative, they act in order they lost initiative
+
+Activating Figures
+- Only ready figures can be activated
+- Figure becomes ready at the start of the round.
+- When activated, figure gains 2 actions and 1 free interact.
+- Actions can be spent to gain movement points, attacks and interacts
+- Free Interact is not the same thing as Interact
+- Interact can be used in place of Free Interact.
+- Free Interact cannot be used in place of Interact
+
+Movement
+- You refers to figure
+- using movement action gives you 4 movement points
+- you move by spending movement points.
+- you move one space at a time.
+- you may move using adjecent spaces only
+- during movement, you lose engagement zone. This mostly affects movement point cost
+- moving to adjecent space costs 1 MP.
+- moving through Impeding Edge costs 1 additional movement point.
+- you may enter space occupied by ally. It costs 1 additional movement point.
+- you cannot end your movement inside space occupied by another figure
+- you cannot end your movemeny inside space that is surrounded by blocking edges
+- you may do multiple movements during your activation
+- movement ends when you decide to attack or interact. You may continue moving after resolving attack or interact.
+
+
+Attack
+- Attacker refers to figure making the attack and player that controlls that figure
+- gaining attacks
+-- in most cases, for every attack action you gain 1 attack with primary weapon, every 2 attack actions in an activation you gain 1 attack with your secondary weapon
+-- number of attacks are written as n/m
+-- during your activation, every odd attack action gives you n attacks, every even attack action gives you m attacks
+-- you gain attacks separately for your primary and secondary weapon
+- Every weapon has has it's Base Dice.
+
+- Targetting
+-- Figure
+--- Used for most attacks
+--- Valid targets differ depending on Attack Type
+-- Space
+--- Used for AoE attacks
+- Melee Attack
+-- You may target adjacent figures (adjacent up to 1)
+-- You may target figures inside your engagement zone
+- Ranged Attack
+-- You may only target figures (or spaces) you have LoS to.
+-- distance
+-- base range
+- Indirect Attack
+-- AoE
+-- cover adds to defenders armor
+- Multi Attack
+-- Burst
+
+Distance between spaces
+- shortest path between 2 spaces not counting starting space but counting target space
+
+Adjacency
+- Spaces are adjacent if they share non blocking edge (or corner if they share no edges)
+- Adjacent up to X
+-- Spaces are "adjacent up to X" if there is a path of adjacent spaces with distance X or less between them.
+
+Line of Sight (LoS)
+- Chose one non obscured corner of your space
+- Draw imagionary lines between chosen corner and every corner of targets space.
+- count every line that is not crossing Obscuring edge or corner
+- if lines overlap, count only one line per overlap.
+- depending on grid type and number of counted lines
+-- square grid
+--- 3 or more lines, full LoS
+--- 2 lines, light cover
+--- 1 line, heavy cover
+--- 0 lines, no LoS
+-- hex grid
+--- 4 or more lines, full LoS
+--- 3 lines, light cover
+--- 2 lines, heavy cover
+--- 1 or less lines, no LoS
+- cover
+-- penalty to ranged attack
+-- bonus on Armor against Indirect Attacks
+
+Engagement Zone
+- Engagement zone has size property
+- if not specified, Engagement Zone has size of 1
+- Melee Trait gives you Engagement Zone (with size of 1)
+- figure or space is inside your engagement zone if it is adjacent up to your engagement zone size to you
+
+Space
+- Edges
+-- Space is enclosed by edges
+-- Movement is through edges
+-- Edge can be Obscuring
+-- Edge can be Impeding or Blocking, never both
+-- 
+- Corners
+-- On square grid, movement throug corners is allowed
+--- Every odd move through corner during activation costs double MP
+-- Corner is Obscuring if at least two adjacent edges are Obscuring
+-- Corner is Impeding if at least two adjacent edges are Impeding
+-- Corner is Blocking if at least two adjacent edges are Blocking
+-- If corner is Impeding and Blocking, it is only Blocking
+- Obscuring
+-- Affects LoS
+-- Can be combined with Impeding or Blocking
+- Impeding
+-- Affects movement
+-- Moving through impeding edge costs 1 additional movement point
+-- Can be combined with Obscuring
+- Blocking
+-- Affects movement
+-- Affects Adjacency
+-- You can't move through blocking edge
+-- Spaces that share blocking edge (or corner) are not Adjacent
+
+Area of Effect (AoE) Attacks
+- Target spaces instead of figures
+- 
+
+Figure types:
+- Followers
+-- Use standard rules for everything
+- Heroes
+-- Use most of the same rules as Followers
+-- Can use Endurance
+-- Can use Valor/Edge (name depends on setting)
+-- Can have special Heroic Traits
+-- Use advanced equipment rules
+
+Modes of Play
+- Adventure
+-- Cooperative, players play against the game
+-- Each player plays 1 Hero
+-- Can be app driven
+- Nemesis
+-- One versus many, Nemesis versus Heroes
+-- One player plays Nemesis
+-- Other players play Heroes
+- Skirmish
+-- Every player creates his own warband
+-- Players compete for specific Scenario Objectives
+
+Endurance
+
+
+
+Stats if needed
+- Move
+- Fight
+- Shoot
+- Parry
+- Deflect
+- Armor
+- Vitality
+- Composure

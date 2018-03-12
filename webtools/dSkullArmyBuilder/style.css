@@ -1,0 +1,286 @@
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: border-box;
+    font-family: monospace;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    position: relative;
+    padding: 12px 8px 12px 40px;
+    background: #eee;
+    font-size: 18px;
+    transition: 0.2s;
+    /* make the list items unselectable */
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+ul li:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+ul li:hover {
+    background: #ddd;
+}
+
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+}
+
+.close, .pointCost {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 12px 16px 12px 16px;
+}
+
+.close:hover {
+    background-color: #f44336;
+    color: white;
+}
+
+.pointCost {
+    right: 40px;
+}
+
+.header {
+    /*background-color: #f44336; */
+    background-color: dimgray;
+    padding: 30px 40px;
+    color: white;
+    text-align: center;
+}
+
+#header_line {
+    padding-bottom: 16px;
+}
+
+#point_counter {
+    text-align: right;
+    padding-bottom: 16px;
+    font-size: 16px;
+}
+
+.header:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+input {
+    border: none;
+    width: 75%;
+    padding: 10px;
+    float: left;
+    font-size: 16px;
+}
+
+.addBtn, .addWeaponBtn {
+    padding: 10px;
+    width: 25%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    transition: 0.3s;
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.addBtn:hover {
+    background-color: #bbb;
+}
+
+#warrior_list_div {
+    float: left;
+    width: 50%;
+}
+
+#warrior_details {
+    float: right;
+    width: 50%;
+    padding: 8px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.equipment_info {
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+/* Weapon classes */
+
+.weaponInfo, .modInfo {
+    width: 100%;
+    padding-left: 8px;
+    margin: 0px;
+    text-align: center;
+     -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.modInfo {
+    padding-left: 16px;
+    font-style: italic;
+}
+
+.weaponName, .baseWeaponName {
+    text-align: left;
+    float: left;
+    width: 50%;
+}
+
+.weaponCost, .baseWeaponCost, .weaponModCost, .armourCost {
+    text-align: right;
+    float: right;
+    width: 15%;
+}
+
+.weaponDice, .baseWeaponDice, .weaponModType, .armourDice {
+    text-align: right;
+    float: right;
+    width: 25%;
+}
+
+.modName, .weaponModName, .armourName {
+    text-align: left;
+    float: left;
+    width: 25%;
+}
+
+.modDescription, .weaponModDescription {
+    text-align: left;
+    float: left;
+    width: 70%;
+    margin-left: 32px;
+}
+
+.weaponHeader {
+    font-weight: bold;
+    padding-left: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.weaponItemSelected {
+    background-color: lightgreen;
+}
+
+#equipment_selector {
+    background-color: white;
+    width: 100%;
+    display: inline-block;
+    margin-top: 24px;
+}
+
+.weaponSelector {
+    padding: 8px;
+    font-size: 16px;
+    transition: 0.2s;
+}
+
+.selectorRow {
+    background: beige;
+}
+
+.selectorRow:nth-child(odd) {
+    background: #f9f9f9;
+}
+
+.selectorRow:hover {
+    background: #ddd;
+}
+
+.selectorRow.selected {
+    background: #888;
+    color: #FFF
+}
+
+.selectorRow.disabled {
+    color: #afafaf;
+}
+
+.weaponModSelector {
+    padding: 8px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.armourSelector {
+    padding: 8px;
+    font-size: 14px;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.weaponSelectorItem {
+    
+}
+
+.armourName {
+    
+}
+
+.armourCost {
+    
+}
+
+.armourDiceCount {
+    
+}
+
+.equipmentDivider {
+    width: 100%;
+    height: 16px;
+    background: #ffffff;
+}
+
+.addWeaponBtn {
+    float: right;
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+
+.addWeaponBtn:hover {
+    background-color: #bbb;
+}
+
+/* mixins */
+
+.selected {
+    background: #888
+}
+
+.inlineBlock {
+    display: inline-block;
+}
+
+.block {
+    display: block;
+}
+
+.clear {
+    clear: both;
+}
+
+.hidden {
+    display: none;
+}

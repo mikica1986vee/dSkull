@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>dSkull Army Builder</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+
+    <div id="header_div" class="header">
+        <div id="header_line">
+            <h2>dSkull Army Builder</h2>
+            <span id="point_counter">0 points</span>
+        </div>
+
+        <input type="text" id="nameInput" placeholder="Name...">
+        <span onclick="addBody()" class="addBtn">Add Body</span>
+    </div>
+
+    <div id="warrior_list_div">
+        <ul id="warrior_list">
+        </ul>
+    </div>
+
+    <div id="warrior_details" class="hidden">
+
+        <h3 id="warrior_name">Name</h3>
+
+        <div id="weapon_item_holder">
+        </div>
+
+        <div id="weapon_header_prototype" class="weaponHeader clear hidden">Header</div>
+
+        <div id="weapon_item_prototype" class="weaponInfo hidden">
+            <span class="weaponName">Example Name</span>
+            <span class="weaponCost">nPts</span>
+            <span class="weaponDice">nS</span>
+        </div>
+
+        <div id="weapon_mod_prototype" class="modInfo hidden">
+
+            <span class="modName">Example Name</span>
+            <span class="weaponCost">nPts</span>
+            <span class="modDescription">nS</span>
+
+        </div>
+
+        <div id="equipment_selector">
+
+            <div id="weapon_holder"></div>
+
+            <div class="equipmentDivider"></div>
+
+            <div id="mod_holder"></div>
+            
+            <div class="addWeaponBtn">Add Weapon</div>
+            
+            <div id="armour_holder" class="clear"></div>
+
+            <div id="base_weapon_selector_prototype" class="weaponSelector selectorRow hidden">
+                <span class="baseWeaponName inlineBlock">Example Name</span>
+                <span class="baseWeaponRange inlineBlock">R: n</span>
+                <span class="baseWeaponCost inlineBlock">nPts</span>
+                <span class="baseWeaponDice inlineBlock">nS</span>
+            </div>
+
+            <div id="weapon_mod_selector_prototype" class="weaponModSelector selectorRow hidden">
+                <div>
+                    <span class="weaponModName inlineBlock">Mod Name</span>
+                    <span class="weaponModCost inlineBlock">nPts</span>
+                    <span class="weaponModType inlineBlock">Mod Type</span>
+                    <br>
+                    <span class="weaponModDescription">description</span>
+                </div>
+            </div>
+
+            <div id="armour_selector_prototype" class="armourSelector selectorRow hidden">
+                <span class="armourName inlineBlock">Armour</span>
+                <span class="armourCost inlineBlock">nPts</span>
+                <span class="armourDice inlineBlock">n</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>

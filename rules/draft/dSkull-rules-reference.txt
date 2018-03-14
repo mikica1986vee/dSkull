@@ -67,6 +67,7 @@ Attack
 -- distance
 -- base range
 - Indirect Attack
+-- Targets space
 -- AoE
 -- cover adds to defenders armor
 - Multi Attack
@@ -161,8 +162,31 @@ Modes of Play
 -- Players compete for specific Scenario Objectives
 
 Endurance
+- Heroes have maximum of 3 Endurance
+- Unless otherwise stated, hetoes start every scenario with max Endurance
+- At the beginning of your activation, recover 1 Endurance up to your maximum endurance
+- during your activation, you may spend 1 Endurance to gain 1 Movement Point
+- during your activation, you may spend 2 Endurance to gain 1 attack
+- before any attack or interact (including free interact) that requires a roll, you may spend 2 Endurance to get +1 Die Step on that roll.
+- before Harm test, you must spend Endurance to lower damage as much as you can with 1 Endurance lowering damage by 1
+- when spending Endurance you may combine different sources of Endurance
+- sources of Endurance
+-- Alert status
+-- Endurance
+-- Valor/Edge
+- Rest/Prepare action
+- Special action that can be used by Hero only
+-- you may use rest/prepare action to recover 1 Endurance
+-- if you are at max Endurance you may rest/prepare to gain Alert status
+- Alert status
+-- does not stack, only 1 instance
+-- behaves like Endurance but must be spent before other sources of Endurance
 
-
+Valor/Edge
+- same thing, different settings
+- Heroes gain it with experience
+- behaves like Endurance but can't be recovered during Scenario
+- if you did not negate full damage by spending Endurance before Harm test, you must spend available Valor/Edge
 
 Stats if needed
 - Move

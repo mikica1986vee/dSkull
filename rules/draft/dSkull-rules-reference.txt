@@ -107,6 +107,32 @@ Engagement Zone
 - Melee Trait gives you Engagement Zone (with size of 1)
 - figure or space is inside your engagement zone if it is adjacent up to your engagement zone size to you
 
+Harm
+- results from attacks
+- levels of harm by damage
+-- 0 or less: No effect
+-- 1: Stunned Condition
+-- 2: Wounded Condition
+-- 3: Incapacitated Condition
+-- 4 or more: Mortally Injured Condition
+- Figure can have only 1 Harm condition at the same time
+- If figure should gain same level of Harm or less it must keep its current Harm condition 
+- Stunned condition
+-- You may not spend actions except to remove this condition. Spend 1 Action, remove this condition.
+- Wounded condition
+-- You may not spend actions except to remove this condition. Spend 2 Actions, remove this condition
+- Incapacitated condition
+-- Followers are removed from the board
+-- Heroes are removed from board in Skirmish
+-- Incapacitated Heroes in Nemesis or Adventure game modes
+--- Hero is considered defeated
+--- You gain Wounded Condition
+--- For the rest of scenario, at the end of your activation you gain Stunned Condition
+- Mortally Injured
+-- If not using campaign variant, same as Incapacitated
+-- If using campaign variant, use Injury Deck or Injury Table
+
+
 Space
 - Edges
 -- Space is enclosed by edges

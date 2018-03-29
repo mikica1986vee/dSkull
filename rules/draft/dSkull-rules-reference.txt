@@ -19,6 +19,25 @@ Initiative order
 -- In other modes, player can activate last
 -- In case multiple players lost initiative, they act in order they lost initiative
 
+Equipment
+- Limits per Figure
+-- 1 Armor
+-- 1 Shield (counts as hand item)
+-- Any number of hand items (weapons are hand items)
+- Two Handed Weapons/Items count as 2 hand items
+- If figure has 2 or more Hand Items (Two handed Items count as 2 Items), every next Hand item you equip costs 1 more point 
+- Active Equipment, Followers
+-- You can have 2 active hand items
+-- At the start of your activation choose 2 hand items
+--- you may only use these items during this activation
+--- if you have shield and do not choose to equip it apply -1 to all atacks during this activation
+-- If you have up to 2 hand items (or 1 two handed item), they are active by default, you don't need to choose them
+- Followers combining Two Handed Weapons and Shield
+-- Shield works normally outside of followers activation
+-- -1 on attacks with two handed weapons
+- Shield
+-- 
+
 Activating Figures
 - Only ready figures can be activated
 - Figure becomes ready at the start of the round.

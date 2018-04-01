@@ -30,7 +30,7 @@ Equipment
 -- You can have 2 active hand items
 -- At the start of your activation choose 2 hand items
 --- you may only use these items during this activation
---- if you have shield and do not choose to equip it apply -1 to all atacks during this activation
+--- if you have shield and do not choose to equip it apply -1 to all attacks during this activation
 -- If you have up to 2 hand items (or 1 two handed item), they are active by default, you don't need to choose them
 - Followers combining Two Handed Weapons and Shield
 -- Shield works normally outside of followers activation
@@ -52,19 +52,19 @@ Movement
 - using movement action gives you 4 movement points
 - you move by spending movement points.
 - you move one space at a time.
-- you may move using adjecent spaces only
+- you may move using adjacent spaces only
 - during movement, you lose engagement zone. This mostly affects movement point cost
-- moving to adjecent space costs 1 MP.
+- moving to adjacent space costs 1 MP.
 - moving through Impeding Edge costs 1 additional movement point.
 - you may enter space occupied by ally. It costs 1 additional movement point.
 - you cannot end your movement inside space occupied by another figure
-- you cannot end your movemeny inside space that is surrounded by blocking edges
+- you cannot end your movement inside space that is surrounded by blocking edges
 - you may do multiple movements during your activation
 - movement ends when you decide to attack or interact. You may continue moving after resolving attack or interact.
 
 
 Attack
-- Attacker refers to figure making the attack and player that controlls that figure
+- Attacker refers to figure making the attack and player that controls that figure
 - gaining attacks
 -- in most cases, for every attack action you gain 1 attack with primary weapon, every 2 attack actions in an activation you gain 1 attack with your secondary weapon
 -- number of attacks are written as n/m
@@ -72,7 +72,7 @@ Attack
 -- you gain attacks separately for your primary and secondary weapon
 - Every weapon has has it's Base Dice.
 
-- Targetting
+- Targeting
 -- Figure
 --- Used for most attacks
 --- Valid targets differ depending on Attack Type
@@ -102,7 +102,7 @@ Adjacency
 
 Line of Sight (LoS)
 - Chose one non obscured corner of your space
-- Draw imagionary lines between chosen corner and every corner of targets space.
+- Draw imaginary lines between chosen corner and every corner of targets space.
 - count every line that is not crossing Obscuring edge or corner
 - if lines overlap, count only one line per overlap.
 - depending on grid type and number of counted lines
@@ -160,7 +160,7 @@ Space
 -- Edge can be Impeding or Blocking, never both
 -- 
 - Corners
--- On square grid, movement throug corners is allowed
+-- On square grid, movement through corners is allowed
 --- Every odd move through corner during activation costs double MP
 -- Corner is Obscuring if at least two adjacent edges are Obscuring
 -- Corner is Impeding if at least two adjacent edges are Impeding
@@ -208,7 +208,7 @@ Modes of Play
 
 Endurance
 - Heroes have maximum of 3 Endurance
-- Unless otherwise stated, hetoes start every scenario with max Endurance
+- Unless otherwise stated, heroes start every scenario with max Endurance
 - At the beginning of your activation, recover 1 Endurance up to your maximum endurance
 - during your activation, you may spend 1 Endurance to gain 1 Movement Point
 - during your activation, you may spend 2 Endurance to gain 1 attack

@@ -1,0 +1,456 @@
+dSkull Skirmish
+
+{{GAME NAME}} is a fast paced skirmish game for 2 to 4 players. Players will create their warband and fight for different objectives in order to score more points then their opponents. In order to do that they will activate their warriors one at the time and manuver them on the game board. Game board will differ depending on scenario and player count. Warriors will get 2 actions per activation (most of the time), then you will exchange those actions for movement points or attacks. You don't need to use up all your movement points before (or after) attacking. You can use some of your movement points, attack, then use your remaining movement points. 
+
+When attacking, not taking into account special circumstances, warrior will roll 2dS for one handed weapons or 3dS for two handed weapons (weapons that need to be held in both hands). If attacker scores at least 1 hit, defender will roll some dice depending on their armour and will subtract one hit for every hit rolled. If there are more than 0 hits after defender rolls his armour, defender does harm test. Depending on result, defender can be stunned, wounded or incapacitated (removed from current game). Melee weapons will hit more often then ranged weapons.
+
+Base dice mechanic. Dice are rolled in a special way, with two important concepts. First one is BASE DICE, it represents how many dice will be used for final counting of hits/effects. Second one is  DIE STEP, it represents advantage or disadvantage to roll and will tell you how many additional dice to roll and which dice you can keep. Base dice are always 1 or more, while die step can be positive, negative or zero. Die step will indicate how many additional dice you roll, even if it is negative, you add dice, never remove them. More factors can be applied to die step, but only after all of applicable modifiers are taken in account you should apply die step to base dice.  
+
+Creating warband
+
+Before playing, players should agree on warband size they are going to use. Recommended point size for small skirmish is 40 points. Equipment restrictions: 1 armor, 3 items, with first 2 handed item counting as 2 items. Having ar least 1 2 handed item denies the use of shield.
+
+Selecting scenario
+
+Players should select a scenario that they want to play. Each scenario has specific victory conditions, deployment restrictions and order of initiative for players. Generally, having initiative in first game round is considered disadvantage.
+
+Game Round
+
+Next player in initiative que claims initiative. Starting with player with initiative, do Tactics roll.
+Tactics roll, test highest Tactics skill (bd: 1) on a non removed figure in your warband. If you have no figures with Tatics skill, do untrained test (-1 step). Keep your result die for reference. Any hit rolled may be spent for "free" attack during figure activation, any advanctage rolled may be spent to add 2 movement points to a figure movement pool during it's activation. If you, currently, have initiative, any skull rolled must be used to lose initiative (move it to next player in initiative do queue). Note: since players are testing Tactics in initiative order, before first turn in a round, initiative can go a un around the table. 
+
+After each player does Tactics test they take turns in initiative order as long as at least one player has unactivated units. During each players turn, that player chooses one of its units to activate. Activated unit gets 2 actions that can be spent during its activation. Actions can be spent to gain movement, attacks, interact or use special skill. You may do same action more then once during activation.
+Gaining movement. Figure may spend 1 action to gain 4 movement points. This may be modified with unit abilities. Movement does not need to be spent immediately. All left over movement points are lost at the end of units activation.
+ 
+
+Simple rules reference
+
+Overview:
+- Create warband
+- Choose scenario
+- Follow scenario specific setup
+- Deploy your warband
+
+Round structure:
+- Test Tactics (1d -1) in Initiative order
+- In initiative order players choose and activate their ready warriors.
+- End round. 
+
+Activation:
+- Start of activation, Gain 2 actions.
+- if wounded, remove wounded, end your activation.
+- if stunned, lose 1 action, remove stunned.
+- Spend actions.
+
+
+misc:
+- warriors controller rolls dice for warrior and takes actions for his warriors.
+- spending a resource means you lose it. (note: local troll)
+- your space, space you are currently in
+- if a rule from skill, ability, scenario or any other source contradicts these rules, the other rule has priority
+
+notes:
+- engagement area does not go through red line
+- spaces sharing red line are not adjecent
+- friendly warriors are considered to have blue lines around them
+- other figures are considered to have red lines around them
+
+Creating Warband:
+1 By default, you get to spend 40 points
+2 Creating custom warrior
+2.1 Pay Base body cost: 6pts (check if 4pts is better costed)
+2.2 Buy equipment
+2.2.1 Warrior can have 1 Armor
+2.2.1.1 Light Armor: 1d, cost 1pt
+2.2.1.2 Heavy Armor: 2d, cost 2pts
+2.2.2 Buy base weapon(s)
+2.2.2.1 Warrior can have 3 "hands" worth of weapons with no additional cost
+2.2.2.1.1 Shield and hand equipment is considered weapon for this purpose
+2.2.2.2 Warrior can't have 2 handed weapon and shield
+2.2.2.3 Every "hand" after 3 costs additional 1 point
+2.2.2.4 One handed weapons use 2d, cost 2pts
+2.2.2.4.1 You may equip shield with 1 handed weapons
+2.2.2.5 Two handed weapons use 3d, cost 3pts
+2.2.2.5.1 You can't equip shield with 2 handed weapons
+2.2.2.6 Choose weapon type
+2.2.2.6.1 Melee
+2.2.2.6.1.1 Provides Engagement Area
+2.2.2.6.1.1 For every ADV rolled add 1 HIT to roll.
+2.2.2.6.2 Ranged
+2.2.2.6.2.1 Provides attack range of 2x d spaces
+2.2.2.6.2.2 Affected by cover and LOS
+
+Game round
+
+1 Preparation
+1.1 Ready warriors
+1.2 Scenario triggers* for 'start of round'
+1.3 Start of round
+1.4 All players, in order of initiative, must do a 1d Tactics test (note: 1d -1, because untrained)
+1.4.0 Take result die as reference, rest of the section is about Tactics test result
+1.4.1 If you rolled SKULL, lose initiative
+1.4.1.1 If you don't have initiative, nothing happens
+1.4.2 You may spend ADV during your warriors activation for it to gain 2 Movement Points
+1.4.3 You may spend HIT during your warriors activation as an additional Attack Action
+1.4.4 Only one symbol can be spent per warrior per activation
+
+2 Resolution
+2.1 Current player only, you must choose one of your ready warriors, that warrior activates. If you can't, go to 2.n
+2.2 Warriors activation (for this section you refers to activating warrior)
+2.2.1 Gain 2 actions
+2.2.2 Start of Activation
+2.2.2.1 Select Active weapons (test: to be for every attack action)
+2.2.2.1.1 If you have shield, select only one weapon (1h only, check Creating Warband)
+2.2.2.1.2 You may select 1 2h weapon or 2 1h weapons.
+2.2.2.1.3 If you selected more then 1 weapon, designate 1 as primary weapon. 
+2.2.2.1.4 Equiped weapons only (note: Campaign)
+2.2.3 Spend Action
+2.2.3.0 You may select the same Action more then once
+2.2.3.1 For Movement
+2.2.3.1.1 Gain 4 movement points
+2.2.3.1.2 Movement points (MP) can be spent at any point during your activation
+2.2.3.1.3 Moving 1 space costs 1 MP
+2.2.3.1.4 Moving through blue line (dotted or full) costs 1 additional movement point
+2.2.3.1.5 Moving through red line (dotted or full) is not possible
+2.2.3.1.6 Moving from space in enemy engagement area costs more points, look under engagements
+2.2.3.1.7 You can enter a space occupied by friendly warrior only if you have enough movement to exit it imediately.
+2.2.3.2 For Attack
+2.2.3.2.0 Default: Gain 1 attack with 1 of your chosen weapons
+2.2.3.2.1 Most weapons have 2 attacks per round. This is shorthand for attacks per action table.
+2.2.3.2.2.1 If this is your 1st, 3rd, 5th, etc Attack action this activation, look under first column.
+2.2.3.2.2.2 If this is your 2nd, 4th, 6th, etc Attack action this activation, look under second column.
+2.2.3.2.2 For primary weapon look under applicable column on Primary Weapon Attack table. 
+2.2.3.2.3 For every other selected weapon look under applicable column on Secondary Weapon Attack table
+2.2.3.3 For Interaction
+2.2.3.3.1 Misc actions. Opening doors, using Medicine skill and similar.
+2.2.4 If you have unspent actions go to Spend Action (2.2.3)
+2.3 If there are ready warriors, next player in initiative order becomes current player, Go to 2.1
+
+
+3 Cleanup
+3.1 Scenario triggers for end of round effects
+3.2 End of round
+3.3 Move 1st player token to next player in line for it (player that had 2nd turn this round)
+
+Engagement
+- overlapping Engagement Zones
+- Contested Engagement Zone: warrior "projecting" this Engagement Zone is inside at least 1 Engagement Zone "projected" by hostile warrior
+- Uncontested Engagement Zone: warrior "projecting" this Engagement Zone is not in any hostile Engagement Zones
+
+Best engagement definition so far!
+- Engaged: you are inside one or more hostile warriors engagement zones.
+- Unengaged: you are not engaged (note: trolls, hopefully, keeps them at bay)
+- Not Engaged by others: If you ignore your engagement zone, hostile warriors that are not engaged.
+ 
+1 Engagement zone
+1.1 All warriors equiped with Melee weapon have Engagement Zone with radius of 1
+1.1.1 Radius of 1 means all adjecent spaces that are 1 space (next to) warrior
+1.1.2 Reach, some weapons have Reach ability.
+1.1.3.1 Reach doubles Engagement Zone Area. (note: pictures please)
+1.2 While moving, Warriors lose Engagement Area
+1.2.1 Warriors lose Engagement Area before calculating MP cost
+1.2.2 Warriors "regain" Engagement Area after entering new space
+2 Moving in/out of spaces in Engagement Zone
+2.1 Moving into space that is in hostile Engagement Zone has no additional MP cost
+2.2 Moving out of space that is in hostile Engagement Zone may have additional MP cost
+2.2.1 Calculating additional cost from hostile Engagement Zone
+2.2.1.1 While moving you lose Engagement Zone
+2.2.1.2 Ignore Engagement Zones of hostile Warriors that are in friendly warriors Engagement Zone.
+2.2.1.3 For each non ignored Engagement Zone "over" your current space, add 1 MP
+3 Attacking inside Engagement Zone
+3.1 If you don't have Engagement Zone
+3.1.1 Your attack gets '- 1' for each Uncontested Engagement Zone containing your space
+
+
+Attacking
+1 Melee attack
+1.1 Check adjecency
+1.1.1 Spaces are adjecent if you can move through the edge between them
+1.1.2 In order to attack you must be adjecent to your target
+1.1.3 For Reach, use sequence of (mostly 2) adjecent spaces (note: Image)
+1.2 Apply modifiers
+1.2.1 Apply shield modifier (defenders shield)
+1.2.2 Apply scenario modifiers, if any
+1.2.3 Do not apply cover modifiers
+1.3. Roll attack
+1.3.1 Count hits (do not forget melee weapon ability)
+1.3.1.1 Melee Weapon Ability: Only during melee attack, add 1 HIT for every ADV rolled
+1.3.2 Spend ADVs
+1.3.2.1 Advanced rules only
+1.3.3 If you didn't roll 1 or more HITs, attack resolution is over
+1.3.4 Convert all HITs to DAMAGE
+1.4 Defender rolls Armor
+1.4.1 Armor roll cannot be negative
+1.4.2 For every HIT rolled, negate 1 DAMAGE
+1.4.3 Advanced rules armor weakness (note: remove for playtesting)
+1.4.3.1 Light Armor is weak against sharp weapons
+1.4.3.2 Heavy Armor is weak against impact weapons
+1.4.4 If all damage from the attack is negated by armor, attack resolution is over
+1.5 Defender does Injury roll as (1d - 1)
+1.5.1 if current damage is more than 3, for every point above 3 add additional -1 modifier to Injury roll
+1.5.1.1 If damage is higher than 3, lower it to 3
+1.5.2 For every HIT rolled, lower DAMAGE by 1
+1.5.3 Check final damage
+1.5.3.1 Damage is 0 or less: No effect
+1.5.3.2 Damage is 1: Defender gains Stunned condition
+1.5.3.3 Damage is 2: Defender gains Wounded condition
+1.5.3.4 Damage is 3: Defender is Incapacitated (remove him from the board)
+1.5.3.5 Damage is 4: Defender is Killed (remove him from the board)
+1.5.3.5.1 During campaign, remove him from the Warband
+2 Ranged attack
+2.1 Check LOS
+2.1.1 After checking LOS you may change target
+2.2 Apply modifiers
+2.2.1 Apply shield modifier (defenders shield)
+2.2.2 Apply scenario modifiers, if any
+2.2.3 Apply cover modifiers
+2.2.4 Apply range modifiers
+2.2.4.1 For every started base range after first, apply -1
+2.2.4.1.1 0 < range <= base range, no mod
+2.2.4.1.2 base range < range <= 2x base range, -1
+2.2.4.1.2 2x base range < range <= 3x base range, -2
+2.2.4.1.2 And so on
+2.3 Next steps are the same as for melee attack
+
+Melee Weapon Ability
+1. For every ADV rolled, add 1 HIT.
+
+
+Line of Sight (LoS)
+1 Warrior cannot block LoS to itself
+2 Determining LoS
+2.1 Choose one non blocked corner of your space
+2.2 Choose 1 space that target occupies
+2.3 From your chosen corner "draw" imagionary lines to every corner of targets space
+2.4 Count every line that is not blocket
+2.4.1 Line is blocked if it crosses edge that is blocking LoS
+2.4.2 Line is blocked if it crosses corncer between edges that are blocking LOS
+2.4.3 For overlapping lines, count only 1 for each pair, don't count both
+2.5 Check your count:
+2.5.1 <= 1: no LoS
+2.5.2 = 2: target has heavy cover
+2.5.3 = 3: target has light cover
+2.5.4 >= 4: full LOS, target has no cover
+
+Warriors and blocking LOS
+1. For LOS purposes non target warriors are considered to have blocking edges on all their spaces (note: Image)
+
+Conditions
+1 Conditions affect you only until removed
+2 Condition List
+2.1 Stunned (Suppressed)
+2.1.1 At the start of your activation, lose 1 action and remove this condition
+2.1.2 You lose engagement zone
+2.2 Wounded
+2.2.1 At the start of your activation, lose 2 actions and remove this condition
+2.2.2 You lose engagement zone
+
+
+Rolling dice
+1. Determine base dice for action
+1.1 number before 'd'
+2. Determine modifier
+2.1 number after 'd'
+3. Create dice pool
+3.1 take base number of dice
+3.2 Add number of dice equal to modifier (absolute value of modifier)
+3.2.1 If modifier is negative, you still add that number of dice instead of subtracting 
+4 Roll your dice pool
+4.1 If modifier is positive, you must remove number of dice equal to the modifier
+4.2 If modifier is negative, your direct opponent must remove number of dice equal to the modifier
+4.2.1 Who your direct opponent is depends on action you are taking
+4.2.1.0 Direct opponent must be hostile to you
+4.2.1.1 When attacking hostile figure, figure owner is your direct opponent
+4.2.1.2 When doing tests that directly affect figures, opponent with highest number of affected figures
+4.2.1.3 When doing tests that affect object/areas under opponent control
+4.2.1.4 For every other, opponent that is next in Initiative Order.
+4.2.1.5 If there is a tie for any these, player that is next in Initiative Order gets the tie.
+4.2.1 If you do not have hostile direct opponent, remove "best" dice for this roll
+5. Dice are considered rolled.
+5.1 Abilities that trigger on "rolled" are triggered 
+6. Count the results
+6.1 If not specified differently
+6.1.1 SKL: -1 HIT
+6.1.2 HIT: +1
+6.2 By default, roll can be negative
+
+
+Types of tests
+1 Warband test
+1.1 Do a test using highest skill in Warband
+2 Warrior test
+3 Combined test
+3.1 Test
+
+
+
+
+Traits:
+Strong, +1pt, +1 to Strength tests, during Melee attack, you may spend 1 {{ADV}} to make your target take -1 to Armor and Resist Harm tests.
+Very Strong, Requires Strong, +1pt, +1 to Strength tests, during Melee attack, you may spend 1 {{ADV}} to make your target take -2 to Armor and Resist Harm tests. # Maybe too strong
+Brave, +1pt, +1 to Morale test
+Very Brave, #Fearless, Requires Brave, +1pt, +1 to Morale Test
+
+Intimidating, +1pt, +1 on Persuasion test, Opponents must pay 1 additional movement point to enter your engagement zone. This does not apply if they move inside your engagement zone.
+
+Fearsome, +2pt, opponents need to pass morale test in order to enter your engagement zone.
+Awe Inspiring, +2pt, before spending actions, opponent may do morale test. If they do not pass, they can't attack you during this activation.
+
+Berserk, #issue of disengagement.
+
+
+
+
+CREATING WARRIOR
+
+In order to create a Warrior, you must choose his Body Type (in Basic Game there is only one, Grunt) opptionally choose one Race and finnaly equip him. If Race and Body Type share some Traits, apply both copies. While equipping your Warrior you must apply following restrictions: Warrior can equip 1 set of Armor, 1 Shield and any number of weapons, with the notion that every weapon after 2nd costs 1 additional point. Shield is counted as weapon and 2 handed weapons are counted as 2 weapons.
+
+Multiracial Warbands, if you have more than one race in your Warband, choose one of the races to be your primary race. Warriors that don't use your primary race will cost you 1 point more.
+
+Body Types:
+Grunt
+Bruiser
+Scout
+Guardian
+Healer
+
+
+Races:
+Human, +0pts, no traits
+Orc, +0pts, Tough, Weak Willed
+Dwarf, +0pts, Slow, Tough, Strong Willed
+Elf, +1pts,  Fleet footed, Fragaile
+Goblin -3?pts, Slow, Weak Willed, Fragaile, Small
+
+
+
+
+Glossary
+
+Distracted. For some reason, warrior is not mentally present in the battle. You may move through distracted opponents as if they are hard terrain. Some skills work only on Distracted warriors. While distracted, warrior loses Engagement Zone.
+Surprised. Your opponent is considered surprised if you started your activation in a spot out of his LOS and to which no opponents allies have line of sight.
+Flanked. Check flanking rules.
+Engagement Zone. Threatened Zone. It is an area of adjacend spaces around you up to X spaces away, where X is by default 1 but can be increased.
+
+Engaged. You are in Engagement Zone of at least 1 opponent.
+Disengage. Entering any space not in any opponents Engagement Zone after being Engaged.
+
+Ready Warrior. Warrior may be activated during this round.
+Refreshing. Affected object is now Ready.
+
+Adjacent. Spaces are adjecent if they share non blocking edge. 
+Adjacent up to x. Space up to x away where every next space is adjecent to previous space. Space up to distance x following consequtive adjacent spaces.
+Distance. Number of spaces between you and target (space) counting target space.
+
+LoS. Line of Sight, check rules for calculating LoS.
+
+Engaged. Inside opponents engagement zone.
+Shift. Moving inside one or more opponents engagement zone.
+Disengaged. Moving away from opponents engagement zone. If you move to another space inside opponents engagement zone you are Shifting.
+
+Losing Engagement Zone. You temporarily lose Engagement Zone before calculating movement cost and before ranged attack. It is restored after those actions. You lose Engagement Zone while Distracted.
+
+
+
+Game in a nutshell. When you move, opponents may hinder you. When you attack take 2d for one handed weapons and 3d for 2 handed weapon. Roll dice, every hit rolled may deal 1 damage, every skull negates one hit. If you are attacking in melee, every adv gives you an  additional hit. If you rolled at least one hit, your opponent may try to block damage with armor, if he has one. For light or partial armor roll 1d, for heavy or full roll 2d. For every hit on armor negate 1 damage. If any damage whent through, defender will try to Resist Harm and will shrug off your attack or get stunned, wounded or removed from the board. If your opponent has shield, he will be harder to hit.
+
+
+AoE
+
+When using AoE weapon you are not attacking figure, but space figure is on. Apply cover as if attacking figure without skills or equipment.
+
+Base Area. Similar to Base Range, for every full Base Area distance, "remove" highest die. Apply attack to all warriors and objects in that base range. For AoE, cover penalty is added as armor bonus. Cover is calculated by doing LoS check from targeted space.
+
++1 to have AoE for base area 1
++2 point per additional 1 to base area
+
+Charges:
+1 charge: /2 points
+3 charges: -1 point
+
+
+
+Using Hand weapon in two hands:
+- Ignore one skull symbol
+//- Only applies if this is the only equipped item
+
+
+Game Round
+
+- Check Initiative
+- TRIGGER: Start of round
+-- Resolve mission effects first then players resolve theirs in Initiative Order.
+- Unit activations
+-- Players Activate one unit at a time in Initiative Order
+--- Start of Players Turn trigger
+--- Active player chooses non activated unit he controls
+--- Start of Activation trigger
+--- Player may spend Actions for selected unit
+--- 1 Action: Gain 4 Movement Points
+---- When gaining movement points trigger
+---- Movement points are added to Movement Points Pool
+---- After gaining movement points trigger
+--- Moving to (adjacent) space:
+---- TRIGGER: Before calculating movement cost
+---- Calculate movement cost
+---- TRIGGER: After calculating movement cost
+---- TRIGGER: Before moving
+
+Default trigger types:
+- BEFORE triggers: happen before their trigger phase
+- AFTER triggers: happen after their trigger phase
+- DURING triggers: may be used at any time during their trigger phase.
+
+Cascading triggers: if a triggered effect provokes another trigger, resolve them in LIFO order. // prevent effects are elegant this way
+
+Slow: whenever you would gain movement points, gain 1 fewer movement point, with the minimum of 0.
+Very Slow: whenever you would gain movement points, gain 2 fewer movement point, with the minimum of 0.
+
+// Slow is too penalizing this way
+
+Fast: whenever you use movement action, gain 1 additional movement point.
+Very Fast: whenever you use movement action, gain 2 additional movement point.
+
+
+
+
+
+Space
+- Space can contain one figure. Spaces are separated by edges and corners. Edges can block movement and/or LOS. Corners that are at intersection of at least 2 blocking edges are considered blocking.
+- Adjacent, spaces are adjecent if they share a non blocking edge
+- Adjacent up to 'N' away, where 'N' is a number, space is considered adjacent 'N' spaces away if there is a path with length of up to 'N' of adjacent spaces between origin and target space.
+- Origin space, most of the time it is your space, it is not counted. Space from which you are counting spaces.
+- Target space, space to which you are counting spaces, it is counted.
+- Blocking vs Obscuring. Blocking edge blocks movement, obscuring edge blocks LOS.
+- Obscuring Edge. Blocks LOS.
+- Blocking Edge. Represents impasable terrain. Can be Obscuring. You can't move through Blocking Edge.`3
+- Impeding Edge. Represents difficult terrain, can be obscuring. Moving through impeding edge costs 1 additional movement point.
+- Radius. 
+
+Movement
+- You move by spending movement points.
+- You may move one space at a time.
+- you may move using adjecent spaces only
+- during movement, you lose engagement zone. This mostly affects movement point cost
+- moving to adjecent space costs 1 MP.
+- moving through Impeding Edge costs 1 additional movement point.
+- you may enter space occupied by ally. It costs 1 additional movement point.
+- you cannot end your movement inside space occupied by another figure
+- you cannot end your movemeny inside space that is surrounded by blocking edges
+- you may do multiple movements during your activation
+- movement ends when you decide to attack or interact. You may continue moving after resolving attack or interact.
+
+Targeting
+- two types, targeting figure or space
+- 
+
+Melee Attack
+- you may target adjacent figures only
+- attackers skill with weapon adds to Die Step
+- defenders parry subtracts from Die Step
+- base dice depends on weapon
+- for every {{ADV}} add 1 hit
+
+Ranged Attack
+- you may target figures in your LOS
+

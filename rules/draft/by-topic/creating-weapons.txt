@@ -1,0 +1,55 @@
+Creating Weapons
+
+Weapons are described by Weapon Traits and Base Attack Dice.
+Every unarmed figure may attack using it's Fist(Melee, Unweildy, 1d, 0pts)
+
+Base Attack Dice: Base Dice for attack using a weapon
+
+Figure can hold 2 hand items. (2 handed weapons count as 2 items)
+// Figure must hold as much items as it can 
+If figure has only 1 weapon or item equipped, apply Free Hand rule
+Free Hand rule: negate one Skull during your attack rolls. (bonus for using 1 handed weapon in 2 hands)
+When creating weapons, first choose Melee or Ranged trait, never both.
+
+- Choose Melee or Ranged Weapon Trait, never both
+- Weapon starts with chosen trait and 1d
+- You may pay 2pt for every +1d
+- Choose and pay for other Weapon Traits
+- As a rule of thumb, every trait can be bought once
+- As a rule of thumb, weapon must cost at least 1 pt
+- Base Attack dice should not be higher then number of hands weapon uses +2d
+- Some Traits can only be applied to Melee or Ranged weapons.
+
+Weapon Traits
+- Melee, *pt: add 1 additional Hit for every Advance rolled. You have Engagement Zone of 1.
+- Ranged, *pt, you have Base Range equal to twice your Base Attack Dice
+- Two Handed, -1pt: counts as additional item (2 items)
+- Slow, -1pt: max 1 attack per activation
+- Heavy, -1pt: when using movement action, gain 1 MP less
+- Parrying, +1pt: +1 Parry
+- Deflecting, +1pt: +1 Deflect
+- Defensive, -1pt: can't generate attacks, if not held, -1 on your attack rolls.
+
+- Upgrade, +1pt: counts as 1 less item, can be applied to other items
+
+Melee Traits
+- Reach, 1pt: double your Engagement Zone
+- Unweildy, -1pt: lose Engagement Zone, you may still attack targets adjacent up to your Engagement Zone
+- Unpredictable, +1pt: lower opponents parry by 2 to a minimum of 0
+
+Ranged Traits
+- Long Range, +1pt, +2 on your Base Range
+- Short Range, -1pt, -2 on your Base Range
+
+
+
+Example weapons:
+
+Berserker Sword, 5pt: Melee, 4d, Two Handed, Slow, Heavy, Parrying, Reach
+
+Creating Enchantments/Upgrades
+
+Enchantments/Upgrades add additional abilities to weapons. This includes things like scope, bayonet and similar. This can be used to double down on traits.
+
+Example upgrade:
+Bayonet, 2pt: Melee, 2d, Upgrade, Short Range

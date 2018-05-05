@@ -32,6 +32,10 @@ WH: {-1, 0, -1, 0, 1, 2}
 DPH: {-1, 0, 0, 2, 2, 4}
 
 function: harm DMG:n step S:n {
+  if DMG <= 0 {
+    result: 0
+  }
+  
   if DMG > 3 {
     S: S + 3 - DMG
     DMG: 3

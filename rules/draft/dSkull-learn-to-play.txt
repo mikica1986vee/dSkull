@@ -1,0 +1,29 @@
+TLDR
+Rolling Dice
+- standard roll
+- chance roll
+Creating Warband
+Select Scenario
+- sides, attacker & defender
+Playing Game
+Campaign
+
+----- Start -----
+
+	TLDR
+	
+dSkull is a trait based skirmish game system focused on simplicity and minimal bookkeeping. System allows for coop play, one vs many and team play. Game system is named after custom dice it uses. Players take turns activating their figures and moving or attacking with them. When you activate your figure you will get 2 actions that you can spend. You can spend those actions to generate movement points, attacks and interacts. Movement points allow you to move on the game board, you don't need to use them all before using any of attacks you have. Interacts are used for special actions, like opening doors, chests and similar. Most of the time you roll 2 dice for hand weapon and 3 dice for two handed weapon. After rolling dice for attack, you count how many hits you rolled and your opponent will try to negate them by rolling armor. After armor roll you will do a Harm Test which will determine what happened to your opponent, is he stunned, wounded or removed from game. Figures come in two types, Heroes and Followers. Heroes are special in that they can use Endurance, a resource that can give them more options compared to Followers.
+
+	Rolling Dice
+
+Two types of rolling are used, Standard Roll and Chance Roll. Standard roll is used for most rolls in the game while Chance Roll is used for random tables.
+
+		Standard Roll
+
+Most used roll in the game. It has two components, Base Dice and Die Step. Base Dice represent the range of possible results for an action while Die Step represent how difficult action is. The following notation is used for Standard Roll, "Bd + S" where 'B' is Base Dice and 'S' is Die Step.
+Take number of dice equal to Base Dice, then add dice equal to Die Step, always add dice, even if Die Step is "negative". Dice added by Die Step are removed after roll. Sign of Die Step determine who will choose which dice to use or remove, if it's positive, you will choose which dice to use or remove, if it's negative your opponent will. After determining which dice to use, total all symbols.
+For example, if you attack shield wielding opponent using two handed weapon, you will roll 3d - 1, (3d for two handed weapon, -1 for opponents shield), that means you will roll 4 dice and your opponent will choose which 3 to use.
+
+		Chance Roll
+		
+Used for random tables, notation is 'nC', where n is number of dice rolled. Take dice you need to roll and arrange them from lowest to highest then check the line on applicable table.

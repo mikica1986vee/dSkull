@@ -5,10 +5,14 @@ Every unarmed figure may attack using it's Fist(Melee, Unweildy, 1d, 0pts)
 
 Base Attack Dice: Base Dice for attack using a weapon
 
-Figure can hold 2 hand items. (2 handed weapons count as 2 items)
+Figure can hold up to 2 hand items (2 handed weapons count as 2 items). This is known as Weapon Kit.
 // Figure must hold as much items as it can 
 If figure has only 1 weapon or item equipped, apply Free Hand rule
 Free Hand rule: negate one Skull during your attack rolls. (bonus for using 1 handed weapon in 2 hands)
+Figure may have more than 1 Weapon Kit. Every Weapon Kit after first costs 1 additional point.
+
+Weapon Kit. Combination of weapons that figure can activate during it's activation by spending Free Interact. Most figures have 1 Weapon Kit and start with it selected. You must buy weapons for every Weapon Kit separatly.
+
 When creating weapons, first choose Melee or Ranged trait, never both.
 
 - Choose Melee or Ranged Weapon Trait, never both
@@ -29,18 +33,23 @@ Weapon Traits
 - Parrying, +1pt: +1 Parry
 - Deflecting, +1pt: +1 Deflect
 - Defensive, -1pt: can't generate attacks, if not held, -1 on your attack rolls.
+- Piercing, +1pt: -2 on opponents Armor test
+- Deadly, +1pt: -2 on opponents Harm test
 
 - Upgrade, +1pt: counts as 1 less item, can be applied to other items
 
 Melee Traits
-- Reach, 1pt: double your Engagement Zone
-- Unweildy, -1pt: lose Engagement Zone, you may still attack targets adjacent up to your Engagement Zone
+- Reach, 2pt: double your Engagement Zone
+-- Cumbersome, -1pt: apply -1 when attacking targets in adjacent space
+-- Unbalanced, requires Reach, -1pt: apply -1 when attacking targets more then 1 space away (over your base engagement zone)
+- Unweildy, -1pt: you do not engage opponents
 - Unpredictable, +1pt: lower opponents parry by 2 to a minimum of 0
 
 Ranged Traits
 - Long Range, +1pt, +2 on your Base Range
 - Short Range, -1pt, -2 on your Base Range
-
+- Braced, -1/2pt, after attacking lose all Movement Points 
+- Slow Rate of Fire, -1/2pt, you may make only 1 attack during activation
 
 
 Example weapons:

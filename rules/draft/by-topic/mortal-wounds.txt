@@ -1,0 +1,42 @@
+11: (1) Dead
+12: (2) Dead
+13: (2) Dead
+14: (2) Dead
+15: (2) Dead		25%
+16: (2) Permament Rib Injury, bleeding
+22: (1) Permanent Brain Damage, bleeding
+23: (2) Permanent Arm Loss, bleeding
+24: (2) Permanent Leg Loss, bleeding
+25: (2) Permanent Eye Loss, bleeding	50%
+26: (2) Broken Ribs
+33: (1) Head Trauma
+34: (2) Broken Arm
+35: (2) Broken Leg
+36: (2) Temp Eye Injury					75%
+44: (1) Gain only half experience from this encounter
+45: (2) Gain 1 experience less from this encounter
+46: (2) 
+55: (1) 
+56: (2) 
+66: (1) No Effect
+
+
+Brain Damage:
+	1st, apply -1 to all tests except Harm test
+	2nd, apply an additional -1 to all tests except Harm test
+
+Rib Injury:
+	1st, do Harm test at the start of your activation, on skull gain Stunned Condition
+	2nd, same as 1st, apply -1 to all Harm tests
+
+Eye Loss: 
+	1st loss, double distance to targets of your ranged attacks
+	2nd loss, you are blind, apply -2 steps to all attacks, opponents gain +1 when attacking you in melee
+Arm Loss: 
+	1st loss, you can only use 1 hand. If you try to use 2 handed weapon apply -2 to your attack. Apply -2 to all test that require 2 hands (climbing, traps, etc)
+	2nd loss, you may not use hands. You may not attack or attempt actions that require hands.
+Leg Loss:
+	1st loss, double movement point costs
+	2nd loss, you are prone, you may not gain movement points. You may spend 1 action to move 1 space. Apply -1 on your melee attacks. All melee attacks against you have +1.
+
+Broken: Apply "Loss" effects for few (next) games only

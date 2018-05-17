@@ -1,0 +1,81 @@
+function: half A:n {
+  S: A / 2
+  if (2 * S) < A {
+    S: S + 1
+  }
+
+  result: S
+}
+
+function: tozero A:n {
+  if A > 0 {
+    result: A
+  } else {
+    result: 0
+  }
+}
+
+function: skull C:n of DIE:s step S:n {
+  if S > 0 {
+    result: [highest C of (C + S)dDIE]
+  }
+
+  result: [lowest C of (C - S)dDIE]
+}
+
+H: {-1, 0, 0, 1, 1, 2}
+M: {-1, 0, 1, 1, 2, 2}
+A: {-1, 0, 1, 2, 2, 3}
+S: {0,0,1}
+
+WH: {-1, 0, -1, 0, 1, 2}
+DPH: {-1, 0, 0, 2, 2, 4}
+DPM: {-1, 0, 2, 2, 4, 4}
+
+function: harm DMG:n step S:n {
+  if DMG <= 0 {
+
+    result: 0
+
+  }
+
+  if DMG > 3 {
+    S: S + 3 - DMG
+    DMG: 3
+  }
+  
+  result: [boundharm DMG - [skull 1 of H step S]]
+}
+
+function: harm DMG:n {
+  result: [harm DMG step -1]
+}
+
+function: boundharm H:n {
+  if H < 0 {
+    H: 0
+  }
+
+  if H > 4 {
+    H: 4
+  }
+
+  result: H
+}
+
+output [harm [skull 2 of M step 0]] named "Hand Melee"
+output [harm [skull 2 of M step 0] - [tozero 1dH]] named "Hand Melee vs Armor: 1"
+output [harm [skull 2 of M step 0] - [tozero 2dH]] named "Hand Melee vs Armor: 2"
+
+output [harm [skull 2 of M step -1]] named "Hand Melee vs Shield"
+output [harm [skull 2 of M step -1] - [tozero 1dH]] named "Hand Melee vs Armor: 1 + Shield"
+output [harm [skull 2 of M step -1] - [tozero 2dH]] named "Hand Melee vs Armor: 2 + Shield"
+
+output [harm [skull 2 of H step 0]] named "Hand Ranged"
+output [harm [skull 2 of H step 0] - [tozero 1dH]] named "Hand Ranged vs Armor: 1"
+output [harm [skull 2 of H step 0] - [tozero 2dH]] named "Hand Ranged vs Armor: 2"
+
+output [harm [skull 2 of H step -1]] named "Hand Ranged vs Shield"
+output [harm [skull 2 of H step -1] - [tozero 1dH]] named "Hand Ranged vs Armor: 1 + Shield"
+output [harm [skull 2 of H step -1] - [tozero 2dH]] named "Hand Ranged vs Armor: 2 + Shield"
+

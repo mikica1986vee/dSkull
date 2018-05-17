@@ -30,6 +30,7 @@ S: {0,0,1}
 
 WH: {-1, 0, -1, 0, 1, 2}
 DPH: {-1, 0, 0, 2, 2, 4}
+DPM: {-1, 0, 2, 2, 4, 4}
 
 function: harm DMG:n step S:n {
   if DMG <= 0 {
